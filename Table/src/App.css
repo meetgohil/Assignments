@@ -1,0 +1,129 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set background image */
+.set-body {
+  background-image: url('images/background-img.webp');
+}
+
+/* Table styles */
+.table-main {
+  align-items: center;
+  border:2px solid black;
+  margin: 3%;
+}
+
+.table-main table {
+  width: 100%;
+  text-align: center;
+}
+
+.table-head {
+  border:1px solid black;
+}
+
+.table-head th{
+  border:1px solid black;
+}
+/* 
+.table-head tr{
+  font-size: 87%;
+} */
+
+.table-body {
+  /* font-size: 83%; */
+  border:1px solid black;
+}
+
+.table-content td{
+  border:1px solid black;
+}
+
+.action-icons {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-between;
+}
+
+.edit-icon {
+  font-size: 1.5rem;
+  /* margin-left: 1rem; */
+}
+
+.edit-icon:hover {
+  cursor: pointer;
+}
+
+.delete-icon {
+  font-size: 1.5rem;
+  /* margin-left: 1rem; */
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+/* Add button styles */
+.add-btn {
+  margin: 0% 47%;
+  margin-top: 2%;
+  padding: 0.5%;
+  background-color: gray;
+  color: white;
+  border-radius: 5%;
+  min-width: 5%;
+}
+
+.add-btn:hover {
+  background-color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+/* Modal styles */
+.modal {
+  margin: 1% 1%;
+  padding: 5%;
+  width: 88%;
+  background-color: rgb(227, 227, 226);
+}
+
+.modal-content label{
+  padding: 1%;
+  margin: 1%;
+  font-weight: 600;
+  font-size:medium;
+  display: flex;
+  align-items: center;
+}
+
+.modal-content input{
+  padding: 1%;
+  margin: 1% 1%;
+  width: 50%;
+}
+
+.modal-content textarea{
+  padding: 1%;
+  margin: 1% 1%;
+  width: 50%;
+  
+}
+
+.modal-save-btn {
+  margin: 0% 40%;
+  padding: 1%;
+  background-color: gray;
+  color: white;
+  border-radius: 5%;
+  min-width: 20%;
+  height: 15%;
+}
+
+.modal-save-btn:hover {
+  background-color: rgb(100, 100, 100);
+  cursor: pointer;
+}
