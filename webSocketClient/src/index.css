@@ -1,0 +1,24 @@
+
+
+.main {
+    height: 98.5vh;
+    /* width: 100vw; */
+    background-color: rgb(202, 205, 235);
+}
+
+.title {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(60, 49, 84);
+    color: white;
+}
+
+.bottom {
+    position: fixed;
+    /* width: 100%; */
+    margin-left: 6px;
+    bottom: 0;
+    margin-bottom: 8px;
+    /* padding: 200px 50px; */
+    width: 98%
+}
